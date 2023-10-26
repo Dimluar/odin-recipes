@@ -1,0 +1,14 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00383d;
+  background-color: #ffddd1;
+  font-size: 18px;
+}
+
+.page-title {
+  font-size: 48px;
+}
+
+a {
+  color: #00383d;
+}
