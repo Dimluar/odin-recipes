@@ -1,14 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #00383d;
   background-color: #ffddd1;
   font-size: 18px;
+  text-align: center;
 }
 
 .page-title {
   font-size: 48px;
 }
 
-a {
-  color: #00383d;
+.recipe-btn {
+  display: block;
+  width: 296px;
+  height: 52px;
+  text-align: center;
+  color: #ffddd1;
+  background-color: #00383d;
+  text-decoration: none;
+  margin: 8px auto;
+  padding: 16px;
 }
