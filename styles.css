@@ -55,3 +55,7 @@ body {
   width: 75%;
   border: #00383d solid 4px;
 }
+
+li {
+  margin: 10px 0;
+}
