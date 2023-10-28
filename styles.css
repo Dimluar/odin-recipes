@@ -10,13 +10,29 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #00383d;
-  background-color: #ffddd1;
+  background-color: #00383d;
   font-size: 18px;
   text-align: center;
+  margin: 0;
+}
+
+.content-container {
+  height: auto;
+  width: 90vw;
+  margin: 0 auto 5vh;
+  padding: 20px;
+  background-color: #ffddd1;
+}
+
+.text-container {
+  text-align: left;
+  width: 70vw;
+  margin: 0 auto;
 }
 
 .page-title {
   font-size: 48px;
+  margin: 0 0 20px;
 }
 
 .btn {
@@ -33,4 +49,9 @@ body {
 
 .recipe-btn {
   width: 296px;
+}
+
+.img {
+  width: 75%;
+  border: #00383d solid 4px;
 }
