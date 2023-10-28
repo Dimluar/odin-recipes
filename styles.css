@@ -19,9 +19,9 @@ body {
   font-size: 48px;
 }
 
-.recipe-btn {
+.btn {
   display: block;
-  width: 296px;
+  width: 128px;
   height: 52px;
   text-align: center;
   color: #ffddd1;
@@ -29,4 +29,8 @@ body {
   text-decoration: none;
   margin: 8px auto;
   padding: 16px;
+}
+
+.recipe-btn {
+  width: 296px;
 }
