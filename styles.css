@@ -19,6 +19,14 @@ html {
   justify-content: center;
 }
 
+.recipe-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
 .list-container {
   background-color: #E0AAFF;
   display: flex;
@@ -30,9 +38,14 @@ html {
   padding: 2em;
 }
 
-.btn {
-  border: .2em solid #3c096c;
+img,
+.btn,
+.params {
+  border: 0.2em solid #3c096c;
   border-radius: .5em;
+}
+
+.btn {
   list-style-type: none;
   margin: .4em;
   padding: .2em;
@@ -47,4 +60,21 @@ html {
 
 .title {
   font-size: 3em;
+}
+
+.recipe {
+  width: 75vw;
+}
+
+.recipe > * {
+  margin: .5em;
+}
+
+.params {
+  padding: .5em;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.2em;
 }
