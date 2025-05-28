@@ -1,0 +1,50 @@
+html
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Garamond', serif;
+  color: #3c096c;
+}
+
+html {
+  background-color: #10002b;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  background-color: #E0AAFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25em;
+  border-radius: 5em;
+  padding: 2em;
+}
+
+.btn {
+  border: .2em solid #3c096c;
+  border-radius: .5em;
+  list-style-type: none;
+  margin: .4em;
+  padding: .2em;
+  background-color: #9d4edd;
+  text-align: center;
+}
+
+.recipe-link {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.title {
+  font-size: 3em;
+}
